@@ -277,7 +277,7 @@ export default function JoinRoom() {
       localStorage.setItem('playerName', playerName);
       await joinRoom(gameCode, playerName);
       router.push(`/game/${gameCode}`);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Failed to join room:', error);
     }
   };

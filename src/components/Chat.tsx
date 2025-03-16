@@ -39,7 +39,7 @@ export const Chat = ({ socket }: ChatProps) => {
   useEffect(() => {
     if (!socket) return;
 
-    const handleRoundStart = ({ drawer, word, timeLeft }: { drawer: string, word: string, timeLeft: number }) => {
+    const handleRoundStart = ({ word }: { drawer: string, word: string, timeLeft: number }) => {
       console.log("Round started with new word:", word);
       // Reset correct guessers at the start of a new round
       clearCorrectGuessers();

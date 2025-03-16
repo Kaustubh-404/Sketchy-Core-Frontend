@@ -10,7 +10,7 @@ export default function GamePage() {
   const router = useRouter();
   const { gameCode } = router.query;
   const { address } = useAccount();
-  const { setGameCode, reset } = useGameStore();
+  const { reset } = useGameStore();
 
   useEffect(() => {
     if (!gameCode || !address) return;
@@ -19,9 +19,9 @@ export default function GamePage() {
       query: { gameCode, address },
     });
 
-    socket.on('gameState', (state) => {
-      // Update game state
-    });
+    // socket.on('gameState', (state) => {
+    //   // Update game state
+    // });
 
     socket.on('gameEnd', async (data) => {
 
@@ -40,7 +40,7 @@ export default function GamePage() {
     return () => {
       socket.disconnect();
     };
-  }, [gameCode, address]);
+  }, [gameCode, address, reset, router]);
 
   if (!gameCode || !address) return null;
 

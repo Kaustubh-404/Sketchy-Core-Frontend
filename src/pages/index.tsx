@@ -3,7 +3,7 @@
 import { useAccount } from 'wagmi';
 import { useRouter } from 'next/router';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { PlusCircle, Users, Clock, Pencil } from 'lucide-react';
+import { PlusCircle, Users, Pencil } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
 
