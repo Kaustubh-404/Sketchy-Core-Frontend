@@ -2,7 +2,8 @@
 
 A Web3 drawing game where players wager crypto, compete to draw and guess, and winners take the pool.
 
-[![Video Demo](https://youtu.be/hs7oC2HGZB4)]
+[![Video Demo](https://img.youtube.com/vi/hs7oC2HGZB4/0.jpg)](https://youtu.be/hs7oC2HGZB4)
+
 
 ## 🎮 Features
 
