@@ -1,4 +1,4 @@
-# Sketch-Chain
+# Sketchy
 
 A Web3 drawing game where players wager crypto, compete to draw and guess, and winners take the pool.
 
