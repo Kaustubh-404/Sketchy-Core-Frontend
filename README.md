@@ -87,7 +87,8 @@ node server.js
 3. Place your wager
 4. Take turns drawing and guessing
 5. Highest points winner takes the pool!
-#If Server could not connect error comes while creating or joining the room just refresh the page
+
+## If Server could not connect error comes while creating or joining the room just refresh the page
 
 ## 🏗️ Project Structure
 
